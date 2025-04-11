@@ -21,7 +21,7 @@ HTHP_COVERAGE = 0.70       # HTHP covers 70% of steam load
 HTHP_COP      = 2.5        # COP of HTHP
 
 # CHP (SGT-100 style) parameters
-CHP_STEAM_COVERAGE = 0.72  # CHP covers 72% of steam load (i.e., produces 43,200 MWh steam)
+CHP_STEAM_COVERAGE = 1.0  # CHP covers 72% of steam load (i.e., produces 43,200 MWh steam)
 CHP_POWER_COVERAGE = 30_000.0  # CHP produces 30,000 MWh electricity per year (fully replaces site demand)
 CHP_OVERALL_EFF    = 0.80  # Overall efficiency (combined electrical + thermal)
 
